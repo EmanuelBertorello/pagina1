@@ -1,0 +1,37 @@
+.div-principal{
+  display: block;
+  height: 200vw;
+  width: 100vw;
+  background-color: rgb(160, 155, 139);
+  margin-top: 0%;
+}
+.image{
+  position: relative;
+  box-shadow: 50px, black;
+  border-radius: 50%;
+  top: 80px;
+  left: 110px;
+  height: 150px;
+  width: 150px;
+
+}
+.ingresar{
+  color: #fbfbfb;
+  margin:auto;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+}
+.formulario{
+  display:block;
+  justify-content: center;
+  align-items: center;
+  height: 80vw;
+  width: 100vw;
+  margin-top: 120px;
+}
+.ingresar{
+
+}
