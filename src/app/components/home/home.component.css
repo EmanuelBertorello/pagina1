@@ -1,0 +1,49 @@
+.div-principal {
+  display: flex;
+ background-color: #09508a ;
+ height: 100vmax;
+}
+.titulo {
+  font-size: 22px;
+  position:relative;
+  top: 100px;
+  left: 110px;
+}
+.logo-nacio {
+  border-radius: 50%;
+  position: relative;
+  top: 190px;
+  left: -70px;
+
+}
+
+.ingresar {
+  font-size: 25px;
+  top: 300px;
+  left: -150px;
+  position: relative;
+  display: flex;
+  background-color: #c7c7c7;
+  border-radius: 30px;
+  box-shadow: 30px,black;
+  justify-content: center;
+  height: 50px;
+  width: 120px;
+}
+.ingresar:hover {
+  box-shadow: 0px;
+}
+.registrarse {
+  font-size: 25px;
+  top: 400px;
+  left: -160px;
+  position: relative;
+  display: flex;
+  background-color: #c7c7c7;
+  border-radius: 30px;
+  box-shadow: 30px,black;
+  justify-content: center;
+  height: 50px;
+  width: 130px;
+}
+
