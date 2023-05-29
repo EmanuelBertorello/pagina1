@@ -2,17 +2,19 @@
   display: block;
   height: 200vw;
   width: 100vw;
-  background-color: rgb(160, 155, 139);
+  background: #ffff;
   margin-top: 0%;
+ 
 }
 .image{
   position: relative;
   box-shadow: 50px, black;
   border-radius: 50%;
   top: 80px;
-  left: 110px;
+  left: 132px;
   height: 150px;
   width: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .ingresar{
@@ -23,15 +25,34 @@
   text-align: center;
   width: 200px;
   height: 50px;
+  border-radius: 20px;
+  margin: 50px;
 }
 .formulario{
   display:block;
   justify-content: center;
-  align-items: center;
-  height: 80vw;
-  width: 100vw;
+  height: 130vw;
+  width: 85vw;
   margin-top: 120px;
+text-align: center;
+background: #a1a1a1;
+border-radius: 20px;
+margin: auto;
+margin-top: 25px;
+border: 2px black;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.ingresar{
+.boton{
+  font-size: 20px;
+  background-color: #ffff;
+  padding: 10px 20px;
+  border-radius: 20px;
 
+}
+.email{
+
+  top: 70px;
+}
+.contenedor-image{
+  height: 130px;
 }

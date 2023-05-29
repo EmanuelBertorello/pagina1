@@ -1,50 +1,66 @@
 .menu-img{
+    height: 47px;
     border-radius: 50%;
-    border: solid;
     background-color: #D9D9D9;
+    margin-left:5px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .nav-principal{
     background-color: #D9D9D9;
-
+    border: 2px black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .user-img{
-    height: 50px;
+    height: 47px;
+    width: 47px;
     position: absolute;
-     left: 85%;
-     top: 5px;
-     margin-left: 1px;
+     top: 7px;
+     margin-left: 6px;
      border-radius: 50%;
-     width: 60px;
+    object-fit: cover!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+   left: 85%;
 
     }
 .bienvenido{
     position: absolute;
-    left: 25%;
+    left: 122px;
     top: 17%;
-    color: white;
-    font: baloo;
+    color:#D9D9D9;
+    font-family: 'Lobster', cursive;
     font-size: 40px;
+    text-shadow: 1px 1px 2px black ;
 }
 .inicio-img{
     height: 250px;
     width: 550px;
+    object-fit: cover;
+    filter: grayscale(17%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .Contenedor-secundario{
-    width: 390px;
-    height: 578px;
+    margin: 0px;
+    width: 100%;
+    height: 170px;
     display: flex;
+    
+background: linear-gradient(180deg, rgba(89, 81, 81, 0.176) 0%, rgba(93, 84, 84, 0.132) 52.08%, rgba(255, 255, 255, 0) 100%);
+mix-blend-mode: multiply;
 }.contenedor-notificaciones{
-    display: flex ;
+    display: block ;
     height: 111px;
     width: 350px;
-    background-color: #D9D9D9;
-    margin: 27px !important;
-    box-shadow: 10px;
-    border-radius: 17px;
-    border: solid,3px;
+    background: #D9D9D9;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
 
 }
 .notificaciones-img{
+    margin-right: 10px;
     height: 35px;
     width: 35px;
     margin-left: 10px;
@@ -52,11 +68,56 @@
     border-radius: 50px;
 }
 .titulo-notificaciones{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 10px ;
     margin-right:100px ;
+    font-weight: bolder;
+    text-shadow: 9px 9px 9px white;
 }
 .texto-notificaciones{
-    align-self: center;
-    justify-self: center;
+    margin: 17px;
+    font: Arya;
+    font-weight: bold;
+    border: auto;
+
+}
+.contenedor-nose{
+    display: flex;
+
+}
+.font-bold{
+    font-size: 14px;
+    position: absolute;
+    right: 60px;
+    top: 19px ;
+font-weight: bolder;}
+.img-calendario{
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 55px;
+}
+.contenedor-terciario{
+   width: 350px;
+   height: 320px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 0px;
+   background-color: #D9D9D9;;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-calendario{
+    font-size: 20px;
+    margin-top: 10px ;
+    font-weight: bolder;;
+ }
+.img-calendario2{
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 20px;
+
 }
