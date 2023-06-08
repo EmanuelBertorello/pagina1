@@ -1,25 +1,32 @@
 .div-principal{
   display: block;
-  height: 200vw;
+  height: 206vw;
   width: 100vw;
-  background: #ffff;
+  background: #0f0404;
   margin-top: 0%;
- 
+
 }
 .image{
-  position: relative;
+  position: absolute;
+  top: 65px;
   box-shadow: 50px, black;
   border-radius: 50%;
-  top: 80px;
-  left: 132px;
   height: 150px;
   width: 150px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .ingresar{
-  color: #fbfbfb;
-  margin:auto;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 50px;
+  margin-top: 100px;
+}
+.ingresar1{
   border: 1px solid #ccc;
   font-weight: bold;
   text-align: center;
@@ -35,7 +42,7 @@
   width: 85vw;
   margin-top: 120px;
 text-align: center;
-background: #a1a1a1;
+background: #888282;
 border-radius: 20px;
 margin: auto;
 margin-top: 25px;
@@ -55,4 +62,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contenedor-image{
   height: 130px;
+  display: flex;
+  justify-content: center;
 }
