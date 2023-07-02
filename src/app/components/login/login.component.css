@@ -2,7 +2,7 @@
   display: block;
   height: 206vw;
   width: 100vw;
-  background: #0f0404;
+  background: #204869;
   margin-top: 0%;
 
 }
@@ -17,7 +17,7 @@
 
 }
 .ingresar{
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   font-weight: bold;
   text-align: center;
   width: 200px;
@@ -25,15 +25,18 @@
   border-radius: 20px;
   margin: 50px;
   margin-top: 100px;
+  background: #b3b4b4;
 }
 .ingresar1{
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   font-weight: bold;
   text-align: center;
   width: 200px;
   height: 50px;
   border-radius: 20px;
   margin: 50px;
+  background: #b3b4b4;
+  color: black;
 }
 .formulario{
   display:block;
@@ -42,7 +45,7 @@
   width: 85vw;
   margin-top: 120px;
 text-align: center;
-background: #888282;
+background: #ffffff;
 border-radius: 20px;
 margin: auto;
 margin-top: 25px;
@@ -51,9 +54,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .boton{
   font-size: 20px;
-  background-color: #ffff;
+  background-color: #b3b4b4;
   padding: 10px 20px;
   border-radius: 20px;
+  border: 1px solid #070707;
 
 }
 .email{
@@ -64,4 +68,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 130px;
   display: flex;
   justify-content: center;
+}
+::placeholder {
+  color: rgb(8, 8, 8);
 }

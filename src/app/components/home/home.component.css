@@ -1,69 +1,78 @@
 .div-principal{
-  background: #0f0404;
-  color: white;
   display: block;
-  height: 100vh;
+  height: 206vw;
   width: 100vw;
+  background: #204869;
+  margin-top: 0%;
+
 }
-.logo-nacio{
+.image{
+  position: absolute;
+  top: 65px;
+  box-shadow: 50px, black;
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  margin: auto;
-  box-shadow: 1px 4px 4px rgba(255, 252, 252, 0.25), 0px 4px 4px rgba(255, 255, 255, 0.25);
-  margin-top: 20px;
-}
-.contenedor-titulo{
-  display: flex;
-  height: 50px;
-  width: 100%;
-  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-}
-
-.titulo{
-  font-weight: bolder;
-  font-size: x-large;
-  margin: auto;
-  height: 20px;
-  width: 100%;
-
-}
-.div-fin{
-  display: flex;
-  flex-direction: column;
-  height: 60%;
-  width: 100%;
-  text-align: center;
-  justify-content: center;
-}
-.ingresar{
-  
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  height: 40px;
-  width: 150px;
-  border-radius: 40px;
-  margin: auto;
-  margin-top: 60px;
-  color: black;
-  font-size: large;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 90px;
-  font-size: x-large;
-  justify-content: center ;
 }
 .registrarse{
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  height: 40px;
-  width: 150px;
-  border-radius: 50px;
-  margin: auto;
-  margin-top: 5px;
+  border: 1px solid #000000;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 50px;
+  background: #b3b4b4;
   color: black;
-  font-size: large;
-  font-weight: bolder;
-  font-size: x-large;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.ingresar1{
+  border: 1px solid #000000;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 50px;
+  background: #b3b4b4;
+  color: black;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.formulario{
+  display:block;
+  justify-content: center;
+  height: 130vw;
+  width: 85vw;
+  margin-top: 120px;
+text-align: center;
+background: #ffffff;
+border-radius: 20px;
+margin: auto;
+margin-top: 25px;
+border: 2px black;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.boton{
+  font-size: 20px;
+  background-color: #b3b4b4;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #070707;
+
+}
+.email{
+
+  top: 70px;
+}
+.contenedor-image{
+  height: 130px;
+  display: flex;
+  justify-content: center;
+}
+::placeholder {
+  color: rgb(8, 8, 8);
 }
