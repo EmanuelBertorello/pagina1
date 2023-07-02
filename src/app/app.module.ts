@@ -8,6 +8,8 @@ import { LoginComponent } from './components/login/login.component';
 import { IndexComponent } from './components/index/index.component';
 import { MesasComponent } from './components/mesas/mesas.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
     LoginComponent,
     IndexComponent,
     MesasComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
