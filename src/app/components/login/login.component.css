@@ -17,15 +17,26 @@
 
 }
 .ingresar{
-  border: 1px solid #000000;
   font-weight: bold;
   text-align: center;
   width: 200px;
   height: 50px;
-  border-radius: 20px;
   margin: 50px;
   margin-top: 100px;
-  background: #b3b4b4;
+  border-bottom-color: rgb(43, 148, 225);
+  border-width: 0 0 1px;
+  border-bottom-style: solid;
+}
+.ingresar:hover{
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 50px;
+  margin-top: 100px;
+  border-bottom-color: rgb(43, 148, 225);
+  border-width: 0 0 1px;
+  border-bottom-style: solid;
 }
 .ingresar1{
   border: 1px solid #000000;
@@ -33,10 +44,10 @@
   text-align: center;
   width: 200px;
   height: 50px;
-  border-radius: 20px;
   margin: 50px;
-  background: #b3b4b4;
-  color: black;
+  border-bottom-color: rgb(43, 148, 225);
+  border-width: 0 0 1px;
+  border-bottom-style: solid;
 }
 .formulario{
   display:block;

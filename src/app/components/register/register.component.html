@@ -6,8 +6,7 @@
       <form [formGroup]="registerUsuario"  (ngSubmit)="registrar()"   class="formulario" >
           <input formControlName="email"           placeholder="ingrese su email"type="email" class="ingresar">
           <input formControlName="password"        placeholder="ingrese su contraseña" type="password" class="ingresar1">
-          <input formControlName="repetirPassword" placeholder="vuelva a ingresar su contraseña" type="password" class="ingresar2">
-         <button routerLink="/index" class="boton"  type="submit" >registrarse</button>
+          <input formControlName="repetirPassword" placeholder="repetir contraseña" type="password" class="ingresar2">
+         <button  class="btn btn-outline-dark"  type="submit"  >registrarse</button>
       </form>
   </div>
-  

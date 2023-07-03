@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { ReactiveFormsModule } from '@angular/forms';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -9,18 +9,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class RegisterComponent implements OnInit {
    registerUsuario: FormGroup;
 
-  constructor(private fb: FormBuilder){
-   this.registerUsuario = this.fb.group({
+  constructor(public fg: FormBuilder){
+   this.registerUsuario = this.fg.group({
      email: ['', Validators.required],
      password: ['', Validators.required],
      repetirPassword: ['', Validators.required]
    })
   }
    ngOnInit(): void {
-     
+
    }
    registrar() {
       console.log(this.registerUsuario);
    }
   }
- 
