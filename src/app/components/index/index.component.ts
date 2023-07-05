@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css']
 })
-export class IndexComponent {
+export class IndexComponent  {
+  menuVisible: boolean = true;
 
+  toggleMenu() {
+    this.menuVisible = !this.menuVisible;
+ console.log("ola")
+  }
 }

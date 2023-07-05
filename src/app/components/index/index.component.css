@@ -122,3 +122,23 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 
 }
+.show-menu {
+  display: none;
+
+}
+.menu{height: 100vh;
+  width: 55vw;
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+  background-color: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.boto{
+  z-index: 11;
+}
+.oka{
+  position: absolute;
+  background-color: #424649;
+  bottom: 5px;
+ left: 20%;
+}

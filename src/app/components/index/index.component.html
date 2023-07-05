@@ -1,10 +1,15 @@
-<div>
+<div style="height: 100vh;width: 100vw;">
     <nav class="nav-principal" style="height: 60px; display: flex;">
-        <button>
-            <img src="./../../../assets/img/menu.png"   class="menu-img">
+        <button class="boto" (click)="toggleMenu()">
+            <img src="./../../../assets/img/menu.png"   class="menu-img"> </button>
+            <div [class.show-menu]="menuVisible" class=" text-dark menu">
+
+              <button type="button" class="btn btn-dark oka">cerrar sesion</button>
+
+            </div>
             <p  class="font-bold">FRANCISCO</p>
             <img src="./../../../assets/img/user.png" class="user-img" >
-        </button>
+
     </nav>
     <div>
       <img src="./../../../assets/img/Estoicismo.jpg" class="inicio-img">
@@ -15,7 +20,7 @@
             <img src="./../../../assets/img/notificaciones.jpg" class="notificaciones-img">
            <h1 class="titulo-notificaciones">Notificaciones</h1>
           </div>
-           <p class="texto-notificaciones"> no tienes notificaciones, debes socialivilizar más</p>
+           <p class="texto-notificaciones"> no tienes notificaciones</p>
           </div>
         </div>
         <div class="contenedor-terciario">
@@ -25,7 +30,11 @@
             </div>
             <img class="img-calendario2"src="./../../../assets/img/calendario2.png">
         </div>
-
+        <footer class="footer bg-dark text-light text-center p-2 mt-2 pb-0">
+          <div class="container">
+            <span>derechos reservados Berto</span>
+          </div>
+        </footer>
       </div>
     </div>
 </div>
