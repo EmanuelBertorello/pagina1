@@ -2,13 +2,13 @@
   <div class="contenedor-image">
     <img class="image" src="./../../../assets/img/logo_nacio.jpg">
   </div>
-    <form class="formulario">
+    <form (ngSubmit)="login()"[formGroup]="loginUsuario" class="formulario">
 
-        <input placeholder="Ingrese su Email"type="email" class="ingresar">
+        <input formControlName="email" placeholder="Ingrese su Email"type="email" class="ingresar">
 
-        <input placeholder="Ingrese su contraseña" type="password" class="ingresar1">
-       <button routerLink="/index" class="p-2 btn btn-dark">INGRESAR</button>
-<div><button type="button" class="btn btn-link mt-4">¿Has olvidado tu contraseña?</button></div>
+        <input formControlName="password" placeholder="Ingrese su contraseña" type="password" class="ingresar1">
+       <button type="submit" class="p-2 btn btn-dark oka">INGRESAR</button>
+<div><button routerLink="/recuperarContra"  class="btn btn-link mt-4 ">¿Has olvidado tu contraseña?</button></div>
 
     </form>
 </div>

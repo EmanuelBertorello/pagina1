@@ -1,0 +1,32 @@
+.contenedor-principal{
+    height: 100vh;
+    width: 100vw;
+    background: #204869;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.img{
+    position: absolute;
+    top: 65px;
+    box-shadow: 50px, black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.contenedor-secundario{
+     display:flex;
+  justify-content: center;
+  height: 130vw;
+  width: 85vw;
+  margin-top: 120px;
+text-align: center;
+background: #ffffff;
+border-radius: 20px;
+margin: auto;
+margin-top: 155px;
+border: 2px black;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,12 +1,11 @@
-
 <div class="div-principal">
-    <div class="contenedor-image">
-      <img class="image" src="./../../../assets/img/logo_nacio.jpg">
-    </div>
-      <form [formGroup]="registerUsuario"  (ngSubmit)="registrar()"   class="formulario" >
-          <input formControlName="email"           placeholder="ingrese su email"type="email" class="ingresar">
-          <input formControlName="password"        placeholder="ingrese su contraseña" type="password" class="ingresar1">
-          <input formControlName="repetirPassword" placeholder="repetir contraseña" type="password" class="ingresar2">
-         <button  class="btn btn-outline-dark"  type="submit"  >registrarse</button>
-      </form>
+  <div class="contenedor-image">
+    <img class="image" src="./../../../assets/img/logo_nacio.jpg">
   </div>
+  <form [formGroup]="registerUsuario" (ngSubmit)="registrar()" class="formulario">
+    <input formControlName="email" placeholder="ingrese su email" type="email" class="ingresar">
+    <input formControlName="password" placeholder="ingrese su contraseña" type="password" class="ingresar1">
+    <input formControlName="repetirPassword" placeholder="repetir contraseña" type="password" class="ingresar2">
+   <div> <button class="btn btn-outline-dark oka" type="submit">registrarse</button></div>
+  </form>
+</div>
