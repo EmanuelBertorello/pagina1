@@ -15,6 +15,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ToastrModule } from 'ngx-toastr';
 import { RecuperarcontraComponent } from './components/recuperarcontra/recuperarcontra.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,7 @@ import { RecuperarcontraComponent } from './components/recuperarcontra/recuperar
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot(), // ToastrModule added
+    ToastrModule.forRoot(), provideFirebaseApp(() => initializeApp(environment.firebase)), provideFirestore(() => getFirestore()), // ToastrModule added
   ],
   providers: [],
   bootstrap: [AppComponent]

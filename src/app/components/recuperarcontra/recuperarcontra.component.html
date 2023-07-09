@@ -1,11 +1,10 @@
 <div class="contenedor-principal">
     <div class="contenedor-secundario">
         <img src="../../../assets/img/logo_nacio.jpg" class="img" alt="sexo">
-        <form class="formu">
-              <label >ingrese su correo</label>
-              <input type="email">
-            
-            <button type="submit" class="btn btn-dark">recuperar contraseña</button>
+        <form class="formu" [formGroup]="recuperarUsuario" (ngSubmit)="recuperar()">
+      
+              <input formControlName="email" class="ingresar" type="email"  placeholder="Ingrese su correo">
+            <button type="submit" class="btn btn-dark bot">recuperar contraseña</button>
 
           </form>
     </div>

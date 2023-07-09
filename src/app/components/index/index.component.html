@@ -3,11 +3,15 @@
         <button class="boto" (click)="toggleMenu()">
             <img src="./../../../assets/img/menu.png"   class="menu-img"> </button>
             <div [class.show-menu]="menuVisible" class=" text-dark menu">
-
-              <button type="button" class="btn btn-dark oka">cerrar sesion</button>
-
+              <h2>Inscribirse</h2>
+              <button>gestion de software</button>
+              <button>ingles tecnico 2</button>
+              <button>estadistica</button>
+              <button>practicas profesionalizantes</button>
+              <button type="button" class="btn btn-dark oka" (click)="logOut()">cerrar sesion</button>
+               
             </div>
-            <p  class="font-bold">FRANCISCO</p>
+            <p  class="font-bold">{{ dataUser.email}}</p>
             <img src="./../../../assets/img/user.png" class="user-img" >
 
     </nav>
@@ -18,22 +22,26 @@
         <div class="Contenedor-secundario">
           <div class="contenedor-notificaciones"> <div class="contenedor-nose">
             <img src="./../../../assets/img/notificaciones.jpg" class="notificaciones-img">
-           <h1 class="titulo-notificaciones">Notificaciones</h1>
+           <h1 class="titulo-notificaciones">Siguentes mesas</h1>
           </div>
-           <p class="texto-notificaciones"> no tienes notificaciones</p>
+           <p class="texto-notificaciones">*17/6 gestion de software </p>
+           <p class="texto-notificaciones">*24/6 ingles tecnico 2 </p>
+           <p class="texto-notificaciones">*26/6 practicas profesionalizantes </p>
+           <p class="texto-notificaciones">*24/6 junco </p>
+           <p class="texto-notificaciones">*26/6 desarrollo de sistemas</p>
+           <p class="texto-notificaciones">*17/6 estrategias de negocios </p>
+
           </div>
         </div>
-        <div class="contenedor-terciario">
-            <div style="display: flex;">
-              <img class="img-calendario"src="./../../../assets/img/calendario.png">
-            <p class="text-calendario">calendario de mesas</p>
-            </div>
-            <img class="img-calendario2"src="./../../../assets/img/calendario2.png">
-        </div>
-        <footer class="footer bg-dark text-light text-center p-2 mt-2 pb-0">
-          <div class="container">
-            <span>derechos reservados Berto</span>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top pos">
+          <div class="col-md-4 d-flex align-items-center">
+          
+            
+            <span class="mb-3 mb-md-0 text-muted">© 2023 Company, Inc</span>
           </div>
+      
+      
+  
         </footer>
       </div>
     </div>
