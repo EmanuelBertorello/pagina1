@@ -3,11 +3,13 @@
         <button class="boto" (click)="toggleMenu()">
             <img src="./../../../assets/img/menu.png"   class="menu-img"> </button>
             <div [class.show-menu]="menuVisible" class=" text-dark menu">
-              <h2>Inscribirse</h2>
-              <button>gestion de software</button>
-              <button>ingles tecnico 2</button>
-              <button>estadistica</button>
-              <button>practicas profesionalizantes</button>
+              <h2 class="titlo-mesas">Inscribirse</h2>
+              <div class="contenedor-mesas mt-5">
+                <button routerLink="/gestion" class="btn btn-dark m-2">gestion de software</button>
+              <button routerLink="/ingles"  class="btn btn-dark m-2">ingles tecnico 2</button>
+              <button routerLink="/estadistica" class="btn btn-dark m-2">estadistica</button>
+              <button routerLink="/practica"  class="btn btn-dark m-2">practicas profesionalizantes</button>
+              </div>
               <button type="button" class="btn btn-dark oka" (click)="logOut()">cerrar sesion</button>
                
             </div>

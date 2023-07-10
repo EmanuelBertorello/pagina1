@@ -148,3 +148,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
   
 }
+.titlo-mesas{
+    font-size: x-large;
+    font-weight: bolder;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.contenedor-mesas{
+    display: flex;
+    flex-direction: column;
+}

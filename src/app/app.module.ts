@@ -18,6 +18,10 @@ import { RecuperarcontraComponent } from './components/recuperarcontra/recuperar
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { GestionComponent } from './components/materias/gestion/gestion.component';
+import { InglesComponent } from './components/materias/ingles/ingles.component';
+import { EstadisticaComponent } from './components/materias/estadistica/estadistica.component';
+import { PracticaComponent } from './components/materias/practica/practica.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +32,10 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     NotfoundComponent,
     RegisterComponent,
     RecuperarcontraComponent,
+    GestionComponent,
+    InglesComponent,
+    EstadisticaComponent,
+    PracticaComponent,
   ],
   imports: [
     BrowserModule,
